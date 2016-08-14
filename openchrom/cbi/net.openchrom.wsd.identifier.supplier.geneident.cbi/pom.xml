@@ -23,14 +23,14 @@
   <description>
 	Initiate gene sequence database searches.
   </description>
-  <url>https://github.com/Mailaender/geneident</url>
+  <url>http://geneident.net</url>
   <!--
 	LICENSES
   -->
   <licenses>
     <license>
       <name>EPL v1.0</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <url>https://www.eclipse.org/legal/epl-v10.html</url>
     </license> 
   </licenses>
   <!--
