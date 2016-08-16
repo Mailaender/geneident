@@ -231,17 +231,6 @@
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-compiler-plugin</artifactId>
         <version>${tycho.version}</version>
-          <configuration>
-            <compilerArguments>
-              <encoding>${project.build.sourceEncoding}</encoding>
-            </compilerArguments>
-          </configuration>
-      </plugin>
-      <plugin>
-        <groupId>${tycho.groupid}</groupId>
-        <artifactId>tycho-surefire-plugin</artifactId>
-        <version>${tycho.version}</version>
-      </plugin>
         <configuration>
           <encoding>${project.build.sourceEncoding}</encoding>
           <extraClasspathElements>
@@ -254,6 +243,12 @@
             </extraClasspathElement>
           </extraClasspathElements>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>${tycho.groupid}</groupId>
+        <artifactId>tycho-surefire-plugin</artifactId>
+        <version>${tycho.version}</version>
+      </plugin>
       <plugin>
         <groupId>${maven.groupid}</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
