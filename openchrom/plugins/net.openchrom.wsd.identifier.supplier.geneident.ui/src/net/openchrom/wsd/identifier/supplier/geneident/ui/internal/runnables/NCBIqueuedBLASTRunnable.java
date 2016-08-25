@@ -59,7 +59,8 @@ public class NCBIqueuedBLASTRunnable implements IRunnableWithProgress {
 			props.setBlastProgram(BlastProgramEnum.megablast); // TODO: make this configurable
 			props.setBlastDatabase("nt"); // nucleotide collection
 			NCBIQBlastOutputProperties outputProps = new NCBIQBlastOutputProperties();
-			outputProps.setAlignmentNumber(10); // TODO: make this configurable
+			outputProps.setAlignmentNumber(0); // TODO: make this configurable
+			outputProps.setDescriptionNumber(10);
 			outputProps.setOutputFormat(BlastOutputFormatEnum.Text); // TODO in BioJava: actually there is also hittable, ASN.1 and CSV output
 			String requestID = null;
 			FileWriter writer = null;
