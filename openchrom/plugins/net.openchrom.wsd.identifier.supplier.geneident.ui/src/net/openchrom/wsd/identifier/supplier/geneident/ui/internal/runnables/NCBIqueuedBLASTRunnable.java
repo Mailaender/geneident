@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2016 Matthias Mailänder.
+ * Copyright (c) 2016, 2017 Matthias Mailänder.
  *
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
@@ -59,7 +59,8 @@ public class NCBIqueuedBLASTRunnable implements IRunnableWithProgress {
 			props.setBlastProgram(BlastProgramEnum.megablast); // TODO: make this configurable
 			props.setBlastDatabase("nt"); // nucleotide collection
 			NCBIQBlastOutputProperties outputProps = new NCBIQBlastOutputProperties();
-			outputProps.setAlignmentNumber(10); // TODO: make this configurable
+			outputProps.setAlignmentNumber(0); // TODO: make this configurable
+			outputProps.setDescriptionNumber(10);
 			outputProps.setOutputFormat(BlastOutputFormatEnum.Text); // TODO in BioJava: actually there is also hittable, ASN.1 and CSV output
 			String requestID = null;
 			FileWriter writer = null;
