@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.wsd.identifier.supplier.geneident.feature"
-      label="Feature"
+      label="Gene Ident"
       version="1.3.0.qualifier"
       provider-name="OpenChrom">
 
