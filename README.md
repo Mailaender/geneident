@@ -3,3 +3,4 @@ Together with the [ABIF Converter](https://github.com/OpenChrom/abifconverter) i
 
 ![image](https://cloud.githubusercontent.com/assets/756669/18823447/762c7468-83ba-11e6-9712-1c7aca4f7ca5.png)
 
+The source code was moved to https://github.com/OpenChrom/OpenChrom.
